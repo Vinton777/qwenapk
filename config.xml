@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.qwenchatapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Qwen Chat</name>
+    <description>
+        A simple app to access chat.qwenlm.ai.
+    </description>
+    <author email="vasilenkoviktor188@gmail.com">
+        Vinton
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="https://chat.qwenlm.ai/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
